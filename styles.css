@@ -1,0 +1,121 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #6c757d
+}
+/* Start of Header*/
+h1 {
+    background-color: #343a40;
+    color: #f8f9fa;
+
+    font-size: 40px;
+
+    margin: 0;
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: center;
+}
+h1.user {
+    color: rgb(238, 144, 144);
+}
+/* End of Header */
+
+/* Start of Forms */
+.form-div {
+    margin: 0;
+    padding: 30px 50px ;
+    display: flex;
+    justify-content: center;
+    background-color: #dee2e6;
+}
+label, .select-job {
+    font-size: 24px;
+}
+input, select {
+    font-size: 20px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+}
+.submit-btn {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 20px auto;
+    padding: 10px 160px;
+}
+.back-btn {
+    background-color: #f8f9fa;
+    color: #1a1d20;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 70px auto;
+    padding: 10px 70px;
+}
+.a-link {
+    text-decoration: none;
+    color: #000000;
+}
+.back-btn:hover {
+    cursor: pointer;
+}
+.bold {
+    font-weight: bold;
+}
+.submit-btn:hover {
+    background-color: #616c76;
+    cursor: pointer;
+}
+.submit-btn:active {
+    background-color: #1a1d20;
+}
+/* End of Forms */
+
+/* Start of Records */
+.records {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding: 100px;
+}
+
+table {
+    font-family: arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px 20px;
+}
+
+th {
+    background-color: #212529;
+    color: #f8f9fa;
+    font-weight: bold;
+}
+td {
+    background-color: #f8f9fa;
+}
+/* End of Records */
+
+/* Delete */
+.deleteForm {
+    font-weight: bold;
+}
+/* End of Delete */
